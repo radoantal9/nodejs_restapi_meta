@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>{{title}}</title>
+
+	<!-- General META -->
+	<meta charset="utf-8">
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
+
+	<!-- Semantic META -->
+	<meta name="keywords" content="{{keywords}}">
+	<meta name="description" content="{{description}}">
+
+	<!-- Facebook META -->
+	<meta property="fb:app_id" content="{{facebookAppId}}">
+	<meta property="og:site_name" content="{{title}}">
+	<meta property="og:title" content="{{title}}">
+	<meta property="og:description" content="{{description}}">
+	<meta property="og:url" content="{{url}}">
+	<meta property="og:image" content="/img/brand/logo.png">
+	<meta property="og:type" content="website">
+
+	<!-- Twitter META -->
+	<meta name="twitter:title" content="{{title}}">
+	<meta name="twitter:description" content="{{description}}">
+	<meta name="twitter:url" content="{{url}}">
+	<meta name="twitter:image" content="/img/brand/logo.png">
+
+	<!-- Fav Icon -->
+	<link href="/modules/core/img/brand/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+	<link rel='stylesheet' id='dd2f5a88-87e5-4d54-9fc2-9cdb825988fa-css'  href='//fast.fonts.com/cssapi/dd2f5a88-87e5-4d54-9fc2-9cdb825988fa.css?ver=3.9.1' type='text/css' media='all' />
+
+	<link href='//fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+	<!--Application CSS Files-->
+	{% for cssFile in cssFiles %}<link rel="stylesheet" href="{{cssFile}}">
+	{% endfor %}
+
+	<!-- HTML5 Shim -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body class="ng-cloak">
+
+	<div id="wrapper" class="toggled">
+
+		<div id="sidebar-wrapper">
+		
+			<nav data-ng-include="'/modules/core/views/nav.client.view.html'" class=""></nav>
+		   
+		</div>
+
+		<div id="page-content-wrapper">
+		
+			<header id="header" data-ng-include="'/modules/core/views/header.client.view.html'" class=""></header>
+		
+			
+		
+			<!--
+		
+			<div class="hero">
+				<div class="container container-rel">
+					<div class="row">
+					
+					
+					
+						<div class="col-xs-6 col-sm-4">
+						
+							<a id="nav-toggle" href="#"><span></span></a>
+						
+							<div class="logo">
+								<a href="/" title="Home">
+									<img src="/img/logo-marcangelo.png" class="img-responsive" alt="Marcangelo logo">
+								</a>
+							</div>
+						</div>
+						
+					</div>
+					
+					<div class="row">
+						<div class="col-xs-6 col-sm-4 col-sm-offset-4">
+							
+							<div class="row">
+								<ul id="lang-switcher" class="nav navbar-nav">
+							  		<li><a class="lang-btn en" ng-click="changeLanguage('en')">En</a></li>
+							   	<li><a class="lang-btn fr" ng-click="changeLanguage('fr')">Fr</a></li>
+								</ul>
+							</div>
+							
+							<div class="row social-icons">
+								<img src="/img/icn-facebook.png" alt="Facebook">
+								<img src="/img/icn-twitter.png" alt="Twitter">
+								<img src="/img/icn-heart.png" alt="Heart">
+							</div>
+						</div>
+					</div>
+		
+					<div class="row">
+						<div class="col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0">
+							<img src="/img/logo-agents.png" class="img-responsive img-centre logo-agents" alt="Agents of M.M.E.A.T">
+						</div>
+						<div class="col-sm-6 game-instructions">
+							<p>Play MarcAngelo Agents of M.M.E.A.T. for the chance to WIN a $10,000 grocery gift card!</p>
+						</div>
+					</div>
+		
+					<img src="/img/character.png" alt="MarcAngelo" id="character">
+					
+					
+		
+					
+		
+				</div>
+			</div>
+			
+			-->
+			
+			
+		
+			<section class="content">
+				<section>
+					{% block content %}{% endblock %}
+				</section>
+			</section>
+		
+		  <footer data-ng-include="'/modules/core/views/footer.client.view.html'" class=""></footer>
+  
+  	</div>
+  
+  </div>
+
+	<!--Embedding The User Object-->
+	<script type="text/javascript">
+		var user = {{ user | json | safe }};
+	</script>
+
+	<!--Application JavaScript Files-->
+	{% for jsFile in jsFiles %}<script type="text/javascript" src="{{jsFile}}"></script>
+	{% endfor %}
+
+	{% if process.env.NODE_ENV === 'development' %}
+	<!--Livereload script rendered -->
+	<script type="text/javascript" src="//localhost:4000/livereload.js"></script>
+
+	{% endif %}
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<section data-ng-controller="HomeController" class="t_container home-page">
+
+
+
+
+
+
+   <div class="hero">
+		<div class="container container-rel">
+
+			<div class="row">
+				<div class="col-sm-5 col-xs-8 col-xs-offset-2 col-sm-offset-0">
+					<img src="/img/logo-agents.png" class="img-responsive img-centre logo-agents" alt="Agents of M.M.E.A.T">
+				</div>
+				<div class="col-sm-7 game-instructions">
+					<p>Play MarcAngelo Agents of M.M.E.A.T. for the chance to WIN a $10,000 grocery gift card!</p>
+				</div>
+        <div class="col-xs-4 col-xs-offset-4 col-sm-offset-0"><img src="/img/character.png" alt="MarcAngelo" id="character"></div>
+			</div>
+
+		</div>
+	</div>
+
+
+
+
+
+	<div class="container">
+
+      <div class="row">
+      	<div class="col-sm-6">
+            <br class="visible-md">
+            <h3>Sign up to play and WIN with MarcAngelo Agents of M.M.E.A.T. </h3>
+            <p>Before you begin your Agents of M.M.E.A.T. quest, please complete the signup form. Once you do, you’re automatically entered for the chance to WIN the $10,000 grocery gift card. The more you play the more ballots you can earn for a better shot at the grand prize!</p>
+
+            <!-- <p ng-if="authentication.user"><a class="btn btn-large btn-primary" href="/#!/play">Play</a></p> -->
+
+            <p>
+               <a ng-if="authentication.user" href="/#!/play" class="btn btn-primary btn-lg">Play</a>
+               <a ng-if="!authentication.user" href="/#!/signup" class="btn btn-primary btn-lg">Sign up</a> &nbsp;
+               <a ng-if="!authentication.user" href="/#!/signin" class="btn btn-primary btn-lg">Sign in</a>
+            </p>
+
+         </div>
+
+         <div class="col-sm-6">
+            <img src="/img/img-gameplay.jpg" alt="Gameplay" class="gameplay img-responsive img-centre">
+         </div>
+      </div><!-- .row -->
+
+
+      <div class="row">
+         <div class="col-md-12">
+            <img src="/img/banner-share.png" alt="Share" class="img-responsive img-centre hidden-xs">
+            <h5 class="banner-copy hidden-xs">Sign up now and play!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
+         </div>
+      </div>
+
+      <div class="row">
+         <div class="col-sm-4 icon-section">
+            <img src="/img/icn-10x.png" class="img-responsive img-centre" alt="10x">
+            <h4>Power Ups</h4>
+            <p>Grab burgers, kabobs, sausages, and steaks for extra power.</p>
+         </div>
+         <div class="col-sm-4 icon-section">
+            <img src="/img/icn-face.png" class="img-responsive img-centre" alt="Face">
+            <h4>Characters</h4>
+            <p>Play with Marc or Angelo.</p>
+         </div>
+         <div class="col-sm-4 icon-section">
+            <img src="/img/icn-levels.png" class="img-responsive img-centre" alt="5 Levels of fun">
+            <h4>5 Levels <em>of</em> fun</h4>
+            <p>Show your agility to win, or risk game over!</p>
+         </div>
+      </div>
+
+   </div>
+
+
+</section>

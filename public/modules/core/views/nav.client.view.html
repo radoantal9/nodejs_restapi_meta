@@ -1,0 +1,49 @@
+<ul class="sidebar-nav" data-ng-controller="NavController">
+	
+  <!--
+  <li class="sidebar-brand">
+     <a href="#">
+         
+     </a>
+  </li>
+  -->
+  
+  <li class="sidebar-brand">
+     <a href="" data-ng-click="closeNav()">
+         Menu
+     </a>
+  </li>
+  
+  <li ui-route="/signup" ng-class="{active: $uiRoute}" ng-if="!authentication.user">
+     <a href="/#!/signup" title="Sign Up">Sign Up</a>
+  </li>
+  
+  <li ui-route="/signin" ng-class="{active: $uiRoute}" ng-if="!authentication.user">
+     <a href="/#!/signin" title="Enter">Sign In</a>
+  </li>
+  
+  <li ui-route="/play" ng-class="{active: $uiRoute}" ng-if="authentication.user">
+     <a href="/#!/play" title="Play">Play</a>
+  </li>
+  
+  <li ui-route="/how-to-play" ng-class="{active: $uiRoute}">
+     <a href="/#!/how-to-play" title="How to Play">How to Play</a>
+  </li>
+  
+  <li ui-route="/faq" ng-class="{active: $uiRoute}">
+     <a href="/#!/faq" title="Faq">Faq</a>
+  </li>
+  
+  <li ui-route="/rules" ng-class="{active: $uiRoute}">
+     <a href="/#!/rules" title="Rules">Rules</a>
+  </li>
+
+  <li ui-route="/settings/profile" ng-class="{active: $uiRoute}" ng-if="authentication.user">
+     <a href="/#!/settings/profile" title="Profile">My Profile</a>
+  </li>
+  
+  <li ui-route="/auth/signout" ng-if="authentication.user">
+     <a href="/auth/signout" title="Signout">Signout</a>
+  </li>
+  
+</ul>

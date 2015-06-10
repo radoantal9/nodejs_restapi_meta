@@ -1,0 +1,67 @@
+{
+   "GALLERY": "Gallery",
+
+   "HOME": {
+      "INTRO_COPY": "Show your love for MarcAngelo’s healthy, delicious and easy-to-prepare meats by posting @MarcAngelo on Twitter, Facebook or Instagram with the hashtag #DriveHomeDelicious for a chance to win a FIAT 500!"
+   },
+
+   "ENTER": {
+      "COPY"        : "<h2>Where there’s a grill, there’s a way!</h2><p>Get creative and share your MarcAngelo moments on social media for a chance to drive home a FIAT 500! We want to see the delicious meals you cook up, the unique moments around the grill, and all the fun times with family and friends.</p><h3>HOW TO ENTER</h3><p>Entering the contest is easy! Simply fill out your information and connect your social accounts below. Then, share your MarcAngelo experiences with @MarcAngelo on Twitter, Facebook or Instagram using the hashtag #DriveHomeDelicious.</p><h3>INCREASE YOUR CHANCES</h3><p>You’ll earn one ballot for the grand prize draw simply by submitting your information below. Earn an additional three ballots for posting @MarcAngelo with the hashtag #DriveHomeDelicious. Then, to really increase your odds, keep posting each month using our monthly hashtags and earn an additional ten ballots each month!</p><ul><li>Enter the Contest ​​= ​1 Ballot</li><li>Use #DriveHomeDelicious ​= ​3 Ballots</li><li>Use a Monthly Hashtag​= ​10 Ballots</li></ul><h3>THE GRAND PRIZE</h3><p>The winner of the grand prize, a FIAT 500, will be chosen via a random draw. However, you can increase your odds by collecting more and more ballots, so keep posting!</p>",
+
+      "TITLE": "Enter the contest",
+
+      "CONNECT"     : "Connect your social accounts",
+      "FIRST_NAME"  : "First name",
+      "LAST_NAME"   : "Last name",
+      "EMAIL"       : "Email Address",
+      "PASSWORD"    : "Password",
+      "PASSWORDCHECK": "Retype Password",
+      "STREET"      : "Street",
+      "CITY"        : "City",
+      "PROVINCE"    : "Province",
+      "POSTAL_CODE" : "Postal Code",
+      "OPT_IN"      : "I would like to receive future correspondence from MarcAngelo such as newsletters, promotions, coupons, recipies, and updates.",
+      "RULES"       : "I have read and agree to the Rules &amp; Regulations.",
+      "ENTER_BUTTON": "Enter",
+
+      "PROVINCES": {
+         "AB": "Alberta",
+         "BC": "British Columbia",
+         "MB": "Manitoba",
+         "NB": "New Brunswick",
+         "NL": "Newfoundland and Labrador",
+         "NS": "Nova Scotia",
+         "ON": "Ontario",
+         "PE": "Prince Edward Island",
+         "QC": "Quebec",
+         "SK": "Saskatchewan",
+         "NT": "Northwest Territories",
+         "NU": "Nunavut",
+         "YT": "Yukon Territory"
+      }
+   },
+
+   "CHALLENGES": {
+      "TITLE": "Challenges"
+   },
+
+   "PLAY": {
+      "TITLE": "Play",
+     "COPY": "<p>Lorem ipsum dolor sit amet.</p>"
+   },
+
+   "HOWTOPLAY": {
+      "TITLE": "How to Play",
+      "COPY": "<div class=\"item\"><h3>Enter/Login</h3><p>Complete the entry form to setup your game account.</p><p>Remember your login for next time.</p></div><div class=\"item how-computer\"><h3>Controls</h3><p>Use the left &amp; right arrow keys to allow your character to jump from platform to platform. Watch out for spikes! <img class=\"computer\" src=\"/game/images/keyboard.gif\"></p></div><div class=\"item how-phone\"><h3>Controls</h3><p>Tilt your device left and right to allow your character to jump from platform to platform. Watch out for spikes! <img class=\"phone\" src=\"/game/images/phone.gif\"></p></div><div class=\"item\"><h3>Collect Prizes</h3><p>Catch the $1 coins to receive a $1 off MarcAngelo product coupon in the mail.</p><img width=\"128px\" src=\"/game/images/6-CouponWin-Coin3.png\"></div><div class=\"item\"><h3>Power Ups</h3><p>Grab burgers, sausages, and kabobs to boost your speed.</p><img src=\"/game/images/hamburger.png\"></div><div class=\"item\"><h3>Win</h3><p>To win the game, take Marc or Angelo through all 5 levels.</p></div><div class=\"item\"><h3>Questions?</h3><p>Having trouble? Check out the <br><br><a class=\"btn btn-primary\" href=\"/#!/faq\">FAQ</a></p></div><div class=\"just-play\"><a href=\"/#!/play\" class=\"btn btn-primary\">Play the Game</a></div>"
+   },
+
+   "PRIVACY": {
+      "TITLE": "Privacy",
+      "COPY": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate iusto laboriosam odit minus sapiente libero amet, nisi nulla rem est numquam necessitatibus vitae nihil ullam veniam quos quod quisquam debitis.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt sunt sint repudiandae dolorum possimus harum deleniti earum praesentium quia, officia magnam ea hic debitis nam, nihil voluptatem ipsa blanditiis. Maiores.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga assumenda delectus voluptatem officiis, molestiae ullam error numquam unde. Quod ullam, similique! Culpa minus optio deserunt voluptas illo facere, libero odit.</p>"
+   },
+
+   "RULES": {
+      "TITLE": "Rules & Regulations",
+      "COPY": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate iusto laboriosam odit minus sapiente libero amet, nisi nulla rem est numquam necessitatibus vitae nihil ullam veniam quos quod quisquam debitis.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt sunt sint repudiandae dolorum possimus harum deleniti earum praesentium quia, officia magnam ea hic debitis nam, nihil voluptatem ipsa blanditiis. Maiores.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga assumenda delectus voluptatem officiis, molestiae ullam error numquam unde. Quod ullam, similique! Culpa minus optio deserunt voluptas illo facere, libero odit.</p>"
+   }
+}

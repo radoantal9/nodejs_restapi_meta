@@ -1,0 +1,101 @@
+<section data-ng-controller="AuthenticationController">
+
+		<div class="container">
+
+			<img src="/img/form-header.png" alt="Form header" class="img-responsive img-centre form-header">
+
+			<div class="col-md-6 col-xs-12 col-md-offset-3">
+
+				<form data-ng-submit="signup()" class="signin" novalidate autocomplete="off">
+					<fieldset>
+						<div id="form-error" data-ng-show="error" class="alert alert-danger text-danger">
+							<strong data-ng-bind="error"></strong>
+						</div>
+							<div class="form-group">
+								<label for="firstName" translate="ENTER.FIRST_NAME">First Name</label>
+								<input type="text" required id="firstName" name="firstName" class="form-control" data-ng-model="credentials.firstName" placeholder="First Name">
+							</div><!-- /.form-group -->
+
+							<div class="form-group">
+								<label for="lastName" translate="ENTER.LAST_NAME">Last Name</label>
+								<input type="text" id="lastName" name="lastName" class="form-control" data-ng-model="credentials.lastName" placeholder="Last Name">
+							</div><!-- /.form-group -->
+
+					  		<div class="form-group">
+								<label for="street" translate="ENTER.STREET">Street</label>
+								<input type="text" id="street" name="street" class="form-control" data-ng-model="credentials.street" placeholder="Street">
+							</div>
+
+					  		<div class="form-group">
+								<label for="city" translate="ENTER.CITY">City</label>
+								<input type="text" id="city" name="city" class="form-control" data-ng-model="credentials.city" placeholder="City">
+							</div>
+
+					  		<div class="form-group">
+								<label for="province" translate="ENTER.PROVINCE">Province</label>
+								<!-- <input type="text" id="province" name="province" class="form-control" data-ng-model="credentials.province" placeholder="Province"> -->
+								<select name="province" id="province" class="form-control" data-ng-model="credentials.province">
+									<option value="AB" translate="ENTER.PROVINCES.AB" selected="selected">Alberta</option>
+									<option value="BC" translate="ENTER.PROVINCES.BC">British Columbia</option>
+									<option value="MB" translate="ENTER.PROVINCES.MB">Manitoba</option>
+									<option value="NB" translate="ENTER.PROVINCES.NB">New Brunswick</option>
+									<option value="NL" translate="ENTER.PROVINCES.NL">Newfoundland and Labrador</option>
+									<option value="NS" translate="ENTER.PROVINCES.NS">Nova Scotia</option>
+									<option value="ON" translate="ENTER.PROVINCES.ON">Ontario</option>
+									<option value="PE" translate="ENTER.PROVINCES.PE">Prince Edward Island</option>
+									<option value="QC" translate="ENTER.PROVINCES.QC">Quebec</option>
+									<option value="SK" translate="ENTER.PROVINCES.SK">Saskatchewan</option>
+									<option value="NT" translate="ENTER.PROVINCES.NT">Northwest Territories</option>
+									<option value="NU" translate="ENTER.PROVINCES.NU">Nunavut</option>
+									<option value="YT" translate="ENTER.PROVINCES.YT">Yukon</option>
+								</select>
+							</div>
+
+						  	<div class="form-group">
+								<label for="postalCode" translate="ENTER.POSTAL_CODE">Postal Code</label>
+								<input type="text" id="postalCode" name="postalCode" class="form-control" data-ng-model="credentials.postalCode" placeholder="Postal Code">
+							</div>
+
+							<div class="form-group">
+								<label for="email" translate="ENTER.EMAIL">Email</label>
+								<input type="text" id="email" name="email" class="form-control" data-ng-model="credentials.email" placeholder="Email">
+							</div><!-- /.form-group -->
+
+							<div class="form-group">
+								<label for="password" translate="ENTER.PASSWORD">Password</label>
+								<input type="password" id="password" name="password" class="form-control" data-ng-model="credentials.password" placeholder="Password">
+							</div><!-- /.form-group -->
+
+							<div class="form-group">
+								<label for="passwordCheck" translate="ENTER.PASSWORDCHECK">Retype Password</label>
+								<input type="password" id="passwordCheck" name="passwordCheck" class="form-control" data-ng-model="credentials.passwordCheck" placeholder="Re-Type Password">
+							</div><!-- /.form-group -->
+
+							<div class="checkbox form-group">
+								<label for="agreeContact">
+								<input type="checkbox" id="agreeContact" name="agreeContact" class="" data-ng-model="credentials.agreeContact">
+								<span translate="ENTER.OPT_IN">I agree to be contacted with future offers</span>
+								</label>
+							</div>
+
+						  	<div class="checkbox form-group">
+								<label for="agreeRules">
+								<input type="checkbox" id="agreeRules" name="agreeRules" class="checkbox-inline" data-ng-model="credentials.agreeRules">
+								<span translate="ENTER.RULES">I agree to the Rules &amp; Regulations of this contest</span>
+								</label>
+							</div>
+
+							<div class="form-group">
+								<br>
+								<button translate="ENTER.ENTER_BUTTON" type="submit" class="btn btn-large btn-primary">Enter</button>
+								<!-- &nbsp; or&nbsp;
+								<a href="/#!/signin" class="show-signup">Sign in</a> -->
+							</div>
+						</div>
+
+					</fieldset>
+				</form>
+			</div>
+		</div>
+
+</section>

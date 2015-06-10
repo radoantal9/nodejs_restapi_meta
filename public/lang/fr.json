@@ -1,0 +1,67 @@
+{
+   "GALLERY": "Gallerie",
+
+   "HOME": {
+      "INTRO_COPY": "French french dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+   },
+
+   "ENTER": {
+      "COPY": "<h2>Lorem Ipsum</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit dolorem doloremque asperiores, ullam, omnis totam fugiat mollitia voluptatum enim ab nemo vero fugit aut quam ut necessitatibus. Neque minima, nobis.</p>",
+
+      "TITLE": "Entrez le contest",
+
+      "CONNECT"     : "Connectez votre social accounts",
+      "FIRST_NAME"  : "Prénom",
+      "LAST_NAME"   : "Nom",
+      "EMAIL"       : "Adresse Courriel",
+      "STREET"      : "Adresse",
+      "PASSWORD"    : "Mot de passe",
+      "PASSWORDCHECK": "Mot de passe encore",
+      "CITY"        : "Ville",
+      "PROVINCE"    : "Province",
+      "POSTAL_CODE" : "Code Postal",
+      "OPT_IN"      : "Oui! J’aimerais recevoir de futures communications de MarcAngelo, telles que des recettes, des conseils de cuisson, des coupons, des mises à jour et des promotions!",
+      "RULES"       : "J’ai lu et j’accepte les Règlements.",
+      "ENTER_BUTTON": "Soumettre",
+
+      "PROVINCES": {
+         "AB": "frAlberta",
+         "BC": "frBritish Columbia",
+         "MB": "frManitoba",
+         "NB": "frNew Brunswick",
+         "NL": "frNewfoundland and Labrador",
+         "NS": "frNova Scotia",
+         "ON": "frOntario",
+         "PE": "frPrince Edward Island",
+         "QC": "frQuebec",
+         "SK": "frSaskatchewan",
+         "NT": "frNorthwest Territories",
+         "NU": "frNunavut",
+         "YT": "frYukon Territory"
+      }
+   },
+
+   "CHALLENGES": {
+      "TITLE": "Challenges"
+   },
+  
+   "PLAY": {
+      "TITLE": "Play",
+     "COPY": "<p>Lorem ipsum dolor sit amet.</p>"
+   },
+   
+   "HOWTOPLAY": {
+      "TITLE": "How to Play",
+      "COPY": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate iusto laboriosam odit minus sapiente libero amet, nisi nulla rem est numquam necessitatibus vitae nihil ullam veniam quos quod quisquam debitis.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt sunt sint repudiandae dolorum possimus harum deleniti earum praesentium quia, officia magnam ea hic debitis nam, nihil voluptatem ipsa blanditiis. Maiores.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga assumenda delectus voluptatem officiis, molestiae ullam error numquam unde. Quod ullam, similique! Culpa minus optio deserunt voluptas illo facere, libero odit.</p>"
+   },
+
+   "PRIVACY": {
+      "TITLE": "Privacy",
+      "COPY": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate iusto laboriosam odit minus sapiente libero amet, nisi nulla rem est numquam necessitatibus vitae nihil ullam veniam quos quod quisquam debitis.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt sunt sint repudiandae dolorum possimus harum deleniti earum praesentium quia, officia magnam ea hic debitis nam, nihil voluptatem ipsa blanditiis. Maiores.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga assumenda delectus voluptatem officiis, molestiae ullam error numquam unde. Quod ullam, similique! Culpa minus optio deserunt voluptas illo facere, libero odit.</p>"
+   },
+
+   "RULES": {
+      "TITLE": "Regles et Regulations",
+      "COPY": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate iusto laboriosam odit minus sapiente libero amet, nisi nulla rem est numquam necessitatibus vitae nihil ullam veniam quos quod quisquam debitis.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt sunt sint repudiandae dolorum possimus harum deleniti earum praesentium quia, officia magnam ea hic debitis nam, nihil voluptatem ipsa blanditiis. Maiores.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga assumenda delectus voluptatem officiis, molestiae ullam error numquam unde. Quod ullam, similique! Culpa minus optio deserunt voluptas illo facere, libero odit.</p>"
+   }
+}

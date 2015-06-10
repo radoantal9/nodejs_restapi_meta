@@ -1,0 +1,64 @@
+<section class="row" data-ng-controller="SettingsController">
+	<h3 class="col-md-12 text-center">Edit your profile</h3>
+	<div class="col-md-6 col-xs-12 col-md-offset-3">
+		<form data-ng-submit="updateUserProfile()" class="signin form-horizontal" autocomplete="off">
+			<fieldset>
+				<div class="form-group">
+					<label for="firstName">First Name</label>
+					<input type="text" id="firstName" name="firstName" class="form-control" data-ng-model="user.firstName" placeholder="First Name">
+				</div>
+				<div class="form-group">
+					<label for="lastName">Last Name</label>
+					<input type="text" id="lastName" name="lastName" class="form-control" data-ng-model="user.lastName" placeholder="Last Name">
+				</div>
+				<div class="form-group">
+					<label for="street" translate="ENTER.STREET">Street</label>
+					<input type="text" id="street" name="street" class="form-control" data-ng-model="user.street" placeholder="Street">
+				</div>
+
+		  		<div class="form-group">
+					<label for="city" translate="ENTER.CITY">City</label>
+					<input type="text" id="city" name="city" class="form-control" data-ng-model="user.city" placeholder="City">
+				</div>
+
+		  		<div class="form-group">
+					<label for="province" translate="ENTER.PROVINCE">Province</label>
+					<!-- <input type="text" id="province" name="province" class="form-control" data-ng-model="credentials.province" placeholder="Province"> -->
+					<select name="province" id="province" class="form-control" data-ng-model="user.province">
+						<option value="AB" translate="ENTER.PROVINCES.AB" selected="selected">Alberta</option>
+						<option value="BC" translate="ENTER.PROVINCES.BC">British Columbia</option>
+						<option value="MB" translate="ENTER.PROVINCES.MB">Manitoba</option>
+						<option value="NB" translate="ENTER.PROVINCES.NB">New Brunswick</option>
+						<option value="NL" translate="ENTER.PROVINCES.NL">Newfoundland and Labrador</option>
+						<option value="NS" translate="ENTER.PROVINCES.NS">Nova Scotia</option>
+						<option value="ON" translate="ENTER.PROVINCES.ON">Ontario</option>
+						<option value="PE" translate="ENTER.PROVINCES.PE">Prince Edward Island</option>
+						<option value="QC" translate="ENTER.PROVINCES.QC">Quebec</option>
+						<option value="SK" translate="ENTER.PROVINCES.SK">Saskatchewan</option>
+						<option value="NT" translate="ENTER.PROVINCES.NT">Northwest Territories</option>
+						<option value="NU" translate="ENTER.PROVINCES.NU">Nunavut</option>
+						<option value="YT" translate="ENTER.PROVINCES.YT">Yukon</option>
+					</select>
+				</div>
+
+			  	<div class="form-group">
+					<label for="postalCode" translate="ENTER.POSTAL_CODE">Postal Code</label>
+					<input type="text" id="postalCode" name="postalCode" class="form-control" data-ng-model="user.postalCode" placeholder="Postal Code">
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="text" id="email" name="email" class="form-control" data-ng-model="user.email" placeholder="Email">
+				</div>
+				<div class="text-center form-group">
+					<button type="submit" class="btn btn-large btn-primary">Save Profile</button>
+				</div>
+				<div data-ng-show="success" class="text-center text-success">
+					<strong>Profile Saved Successfully</strong>
+				</div>
+				<div data-ng-show="error" class="text-center text-danger">
+					<strong data-ng-bind="error"></strong>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</section>
